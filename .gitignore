@@ -1,2 +1,10 @@
 node_modules/
 .env
+/generated/prisma
+generated/
+.claude/
+.agents/
+.windsurf/
+.cursor/
+.vscode-*
+skills-lock.json
