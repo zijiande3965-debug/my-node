@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ls -la && ls -la generated 2>&1 || echo 'generated folder NOT FOUND' && prisma generate && prisma migrate deploy && node index.js",
+    "start": "prisma generate && prisma migrate deploy && node index.js",
     "postinstall": "prisma generate"
   },
   "keywords": [],
